@@ -28,6 +28,9 @@ and allows exporting to 3D engines, with a sample project provided for [Godot En
 
 * __rvx__ folder contains an OpenGL/C rendering library which can be used in custom engines to render RVX scenes, providing more features than 3D exports
 
+* __samples__ folder contains a sample scene from [Enclosure 3-D](https://store.steampowered.com/app/2128440/Enclosure_3D/ "Enclosure 3-D"),
+including a [Godot Engine](https://godotengine.org/ "Godot Engine") project which showcases it.
+ 
 RVX is a graphics library, it's not a game logic engine - you can incorporate the style into any type of game or engine.
 
 ## Workflows
@@ -79,7 +82,7 @@ but the modelling process is manual.
 
 __To create a new Scene__:
 
-1. _Scene_ -> _New__
+1. _Scene_ -> _New_
 2. Under _Blank Construct_ node you will see scene dimensions, default ones are a good start but you can change them and press Enter to reconstruct. You
 can always extend the model manually in MagicaVoxel later so these are not binding.
 3. When you're happy with the size, _Save as..._ scene in a chosen location.
