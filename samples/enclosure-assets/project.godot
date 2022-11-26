@@ -1,0 +1,37 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="rvx/godot sample"
+config/description="Example RVX scene used in a Godot game prototype
+RVX engine (c) 2022 mausimus
+Graphical assets from \"Enclosure 3-D\" (c) 2022 Femo Duo Entertainment"
+run/main_scene="res://room.tscn"
+config/icon="res://icon.png"
+
+[display]
+
+window/size/width=1280
+window/size/height=720
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/AsepriteWizard/plugin.cfg" )
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+quality/driver/fallback_to_gles2=true
+quality/filters/msaa=3
+environment/default_environment="res://default_env.tres"

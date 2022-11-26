@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{21EB8090-0D4E-1035-B6D3-48EBA215DCB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E9C7FDCE-D52A-8D73-7EB0-C5296AF258F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\imgui\imconfig.h" />
+    <ClInclude Include="include\imgui\imgui.h" />
+    <ClInclude Include="include\imgui\imgui_impl_glfw.h" />
+    <ClInclude Include="include\imgui\imgui_impl_opengl3.h" />
+    <ClInclude Include="include\imgui\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="include\imgui\imgui_internal.h" />
+    <ClInclude Include="include\imgui\imgui_stdlib.h" />
+    <ClInclude Include="include\imgui\imstb_rectpack.h" />
+    <ClInclude Include="include\imgui\imstb_textedit.h" />
+    <ClInclude Include="include\imgui\imstb_truetype.h" />
+    <ClInclude Include="include\nfd\common.h" />
+    <ClInclude Include="include\nfd\nfd.h" />
+    <ClInclude Include="include\nfd\nfd_common.h" />
+    <ClInclude Include="include\nfd\simple_exec.h" />
+    <ClInclude Include="include\raylib\raygui.h" />
+    <ClInclude Include="include\raylib\raylib.h" />
+    <ClInclude Include="include\raylib\raymath.h" />
+    <ClInclude Include="include\raylib\rlgl.h" />
+    <ClInclude Include="include\iniparser.hpp" />
+    <ClInclude Include="include\ogt_vox.h" />
+    <ClInclude Include="rvx-toolkit\Model.h" />
+    <ClInclude Include="rvx\rvx.h" />
+    <ClInclude Include="rvx\rvx_shaders.h" />
+    <ClInclude Include="rvx-toolkit\Scene.h" />
+    <ClInclude Include="rvx-toolkit\Viewer.h" />
+    <ClInclude Include="rvx-toolkit\Renderer.h" />
+    <ClInclude Include="rvx-toolkit\stdafx.h" />
+    <ClInclude Include="rvx-toolkit\VOXLoader.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\imgui\imgui.cpp" />
+    <ClCompile Include="include\imgui\imgui_demo.cpp" />
+    <ClCompile Include="include\imgui\imgui_draw.cpp" />
+    <ClCompile Include="include\imgui\imgui_impl_glfw.cpp" />
+    <ClCompile Include="include\imgui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="include\imgui\imgui_stdlib.cpp" />
+    <ClCompile Include="include\imgui\imgui_tables.cpp" />
+    <ClCompile Include="include\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="include\nfd\nfd_win.cpp" />
+    <ClCompile Include="include\nfd\nfd_common.cpp" />
+    <ClCompile Include="rvx\rvx.c" />
+    <ClCompile Include="rvx\rvx_shaders.c" />
+    <ClCompile Include="rvx-toolkit\Scene.cpp" />
+    <ClCompile Include="rvx-toolkit\Viewer.cpp" />
+    <ClCompile Include="rvx-toolkit\Renderer.cpp" />
+    <ClCompile Include="rvx-toolkit\VOXLoader.cpp" />
+    <ClCompile Include="rvx-toolkit\Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\shaders\glsl330\render.fs" />
+    <None Include="resources\shaders\glsl330\render.vs" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rvx-toolkit.rc" />
+  </ItemGroup>
+</Project>

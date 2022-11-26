@@ -1,0 +1,22 @@
+format = rvx100
+
+[scene]
+assets_folder = enclosure-assets
+name = Sample RVX scene from Enclosure 3-D
+size_x = 288
+size_y = 41
+size_z = 132
+vox_file = enclosure.vox
+
+[view]
+cam_dist = 106.19999694824219
+cam_height = 46.299999237060547
+fov = 108
+offset_x = 0
+offset_y = 0.10000000149011612
+shearing_x = 0
+shearing_y = -0.60000002384185791
+target_pos_x = 127.03359222412109
+target_pos_y = 35.595794677734375
+target_pos_z = 0
+
