@@ -4,7 +4,7 @@
 
 RVX is a graphics framework for replicating low-resolution pixel art scenes in true 3D.
 
-See it in action (YouTube):
+Original proof of concept (YouTube):
 
 [![RVX demo on YouTube](https://img.youtube.com/vi/IfJmOQcLgB8/0.jpg)](https://www.youtube.com/watch?v=IfJmOQcLgB8 "RVX Demo")
 
@@ -31,7 +31,7 @@ and allows exporting to 3D engines, with a sample project provided for [Godot En
 * __rvx__ folder contains an OpenGL/C rendering library which can be used in custom engines to render RVX scenes, providing more features than 3D exports
 
 * __samples__ folder contains a sample scene from [Enclosure 3-D](https://store.steampowered.com/app/2128440/Enclosure_3D/ "Enclosure 3-D"),
-including a [Godot Engine](https://godotengine.org/ "Godot Engine") project which showcases it.
+including a [Godot Engine](https://godotengine.org/ "Godot Engine") project which runs it.
  
 RVX is a graphics library, it's not a game logic engine - you can incorporate the style into any type of game or engine.
 
