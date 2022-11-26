@@ -77,8 +77,17 @@ The toolkit provides a realtime WYSIWYG view
 (if you have rvx-toolkit and MagicaVoxel open at the same time, as soon as you save changes in MagicaVoxel, rvx-toolkit will auto-refresh)
 but the modelling process is manual.
 
-You may find it easiest to simply copy the _enclosure_ sample and work with its existing .vox (MagicaVoxel) file.
-Alternatively, you can start a New Scene in rvx-toolkit.
+__To create a new Scene__:
+
+1. _Scene_ -> _New__
+2. Under _Blank Construct_ node you will see scene dimensions, default ones are a good start but you can change them and press Enter to reconstruct. You
+can always extend the model manually in MagicaVoxel later so these are not binding.
+3. When you're happy with the size, _Save as..._ scene in a chosen location.
+4. Click _Generate VOX_ to create a .vox (MagicaVoxel) file with the blank template, you will see the path generated.
+5. Open the .vox file in MagicaVoxel but keep rvx-toolkit open.
+6. Whenever you make and save changes in MagicaVoxel, rvx-toolkit will auto-refresh and reflect these. This is the main modelling loop.
+7. You do not need to separately _Save_ the scene in rvx-toolkit if all you do is change the .vox file. _Save_ only stores view/settings.
+8. When you're done modelling, proceed to .obj export.
 
 ### How to Export
 
