@@ -1,5 +1,7 @@
 ## RVX - Retro VoXel graphics framework
 
+![Discord](https://img.shields.io/discord/874950297431191562)
+
 RVX is a graphics framework for replicating low-resolution pixel art scenes in true 3D.
 
 See it in action (YouTube):
