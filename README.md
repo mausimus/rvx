@@ -47,6 +47,8 @@ As a __developer__, you can integrate RVX scenes into your game engine.
 
 RVX Toolkit includes a sample scene from [Enclosure 3-D](https://store.steampowered.com/app/2128440/Enclosure_3D/ "Enclosure 3-D") for demonstration.
 
+0. Either download the binary release from [Releases](https://github.com/mausimus/rvx/releases) section, or build from the source using Visual Studio 2022.
+
 1. Start __rvx-toolkit__, click Scene->Load and open _enclosure.rvx_ from _samples_ folder.
 
 ![screenshot](images/screenshot1.png)
